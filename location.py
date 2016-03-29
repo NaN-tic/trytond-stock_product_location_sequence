@@ -4,10 +4,9 @@
 from trytond.pool import PoolMeta
 __all__ = ['ProductLocation']
 
-__metaclass__ = PoolMeta
-
 
 class ProductLocation:
+    __metaclass__ = PoolMeta
     __name__ = 'stock.product.location'
 
     @staticmethod
